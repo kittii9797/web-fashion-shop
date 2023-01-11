@@ -7,39 +7,48 @@ import Button from '@material-ui/core/Button';
 const MediawithText = () => {
 
     return (
-<div class="tab-wrap">
-            
-
-            <input type="radio" id="tab1" name="tabGroup1" class="tab" checked />
-            <label for="tab1">Short</label>
-        
-            <input type="radio" id="tab2" name="tabGroup1" class="tab" />
-            <label for="tab2">Medium</label>
-        
-            <input type="radio" id="tab3" name="tabGroup1" class="tab" />
-            <label for="tab3">Long</label>
-        
-            <div class="tab__content">
-              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            </div>
-        
-            <div class="tab__content">
-              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-        
-              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
-            </div>
-        
-            <div class="tab__content">
-              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-        
-              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
-        
-              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-        
-              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
-            </div>
-        
+    <div class="bodymonial">
+        <section class="container">
+        <div class="testimonial">
+          <div class="avatar">
+            <img src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=996&t=st=1673446329~exp=1673446929~hmac=0563605e5c5905a16cfffc84f6e11f3027c4015ff3627128e5a7c55e4693f8bf" alt="" />
           </div>
+          <div class="body">
+          <div class="header">
+            <h1>Elina Wilson</h1>
+            <p>★★★★★</p>
+          </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde commodi possimus sequi esse, iste sunt?</p>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="avatar">
+            <img src="https://img.freepik.com/free-photo/portrait-smiling-attractive-redhead-young-woman-with-long-wavy-hair_295783-487.jpg?w=2000" alt="" />
+          </div>
+          <div class="body">
+          <div class="header">
+            <h1>Katie White</h1>
+            <p>★★★★★</p>
+          </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde commodi possimus sequi esse, iste sunt?</p>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="avatar">
+            <img src="https://img.freepik.com/free-photo/portrait-young-beautiful-playful-woman-with-bun-posing_176420-12392.jpg?w=2000" alt="" />
+          </div>
+          <div class="body">
+          <div class="header">
+            <h1>Mary Holmes</h1>
+            <p>★★★★★</p>
+          </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde commodi possimus sequi esse, iste sunt?</p>
+          </div>
+        </div>
+      </section>
+    </div>
      
     )
 }
