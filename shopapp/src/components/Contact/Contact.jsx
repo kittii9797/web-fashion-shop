@@ -91,7 +91,7 @@ const Contact = () => {
 <Grid item xs={12} sm={6} md={6} component={Paper} elevation={0} square>
 <ToastContainer/>
   <div className={classes.paper} style={{backgroundColor:'trasparent'}}>
-  <Typography component="h2" position="left" variant="h5" style={{marginBottom:'20px',color:'gray'}}>
+  <Typography component="h2" position="left" variant="h5" style={{marginBottom:'20px',color:'gray', marginLeft: '5px' }}>
     Contact message
   </Typography>
   <form id='contact-form' className={classes.form} onSubmit={sendEmail}>
@@ -165,7 +165,7 @@ const Contact = () => {
                     ></TextField>
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
-                </div>
+    </div>
 
     <div style={{textAlign:'right'}}>
       <Button
@@ -173,7 +173,7 @@ const Contact = () => {
         variant="contained"
         color="Primary"
         className={classes.submit}
-        style={{ color: 'white'}}
+        style={{ color: 'white', background: 'black', margin: '50px 0px 16px'}}
       >
         Send
       </Button>
